@@ -1,0 +1,313 @@
+<html lang="en">
+<head><!DOCTYPE html>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pavishna T | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:grey;
+    color:pink;
+}
+
+header{
+    background:#111827;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+.hero{
+    min-height:90vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.hero-content h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.hero-content span{
+    color:#38bdf8;
+}
+
+.hero-content h2{
+    margin-bottom:20px;
+    color:#cbd5e1;
+}
+
+.hero-content p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 30px;
+    background:#38bdf8;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+    color:#38bdf8;
+}
+
+.about p{
+    text-align:center;
+    line-height:1.8;
+}
+
+.skills-container{
+    max-width:700px;
+    margin:auto;
+}
+
+.skill{
+    margin-bottom:20px;
+}
+
+.bar{
+    height:20px;
+    background:#334155;
+    border-radius:20px;
+}
+
+.fill{
+    height:20px;
+    background:#38bdf8;
+    border-radius:20px;
+}
+
+.html{width:90%;}
+.css{width:85%;}
+.js{width:80%;}
+.python{width:90%;}
+
+.projects-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:300px;
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+}
+
+.card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:40px;
+}
+
+nav{
+    flex-direction:column;
+}
+
+nav ul{
+    margin-top:15px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<nav>
+<h2 class="logo">Pavishna T</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-content">
+
+<h1>Hello, I'm <span>Pavishna T</span></h1>
+
+<h2>Student | Web Developer | AI Enthusiast</h2>
+
+<p>
+Welcome to my portfolio website. I am passionate about
+Web Development, Artificial Intelligence, Machine Learning,
+and Deep Learning. I enjoy building innovative projects and
+learning new technologies.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+</section>
+
+<section class="about" id="about">
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+I am Pavishna T, a student interested in software development,
+web technologies, artificial intelligence, and machine learning.
+I enjoy solving real-world problems through technology and
+creating user-friendly applications.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill">
+<p>HTML</p>
+<div class="bar">
+<div class="fill html"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>C</p>
+<div class="bar">
+<div class="fill css"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Artificial intelligence</p>
+<div class="bar">
+<div class="fill js"></div>
+</div>
+</div>
+
+<div class="skill">
+<p>Python</p>
+<div class="bar">
+<div class="fill python"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects-container">
+
+<div class="card">
+<h3>Brain Hemorrhage Detection</h3>
+<p>
+Developed a CNN-based deep learning model to detect
+brain hemorrhage from CT scan images.
+</p>
+</div>
+
+<div class="card">
+<h3>online quiz app</h3>
+<p>
+The Online Quiz App is a simple and effective web application that demonstrates 
+the use of front-end web technologies to create an interactive learning tool.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<p>Email: pavishna@2005gmail.com</p>
+<p>Phone: +91 9942053487</p>
+<p>Location: Coimbatore, Tamil Nadu</p>
+
+</section>
+
+<footer>
+<p>© 2026 Pavishna T. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
